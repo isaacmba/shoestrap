@@ -1,0 +1,17 @@
+div {
+  height: 50px;
+  border: 1px solid red;
+  box-sizing: content-box;
+  box-sizing: border-box;
+
+}
+.row:before {
+  display: table;
+  content: "";
+}
+
+.row:after {
+  display: table;
+  content: "";
+  clear: both;
+} 
